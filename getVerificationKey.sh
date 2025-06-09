@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-#-------------------------
+#--------------------------------------------------------------------------------
 # Sending array with curl 
-# ------------------------
+# Data can be receive from $1 but 
+# since I have to solve the challenge on the spot, I had to copy and paste it
+# -----------------------------------------------------------------------------
 
 curl --header "Content-Type: application/json" \
 --request POST \
